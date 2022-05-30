@@ -7,3 +7,10 @@
 ul {
     list-style: none;
 }
+
+body,
+#root,
+#root > div {
+    min-width: 100vw;
+    min-height: 100vh;
+}
