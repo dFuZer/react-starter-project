@@ -14,3 +14,21 @@ body,
     min-width: 100vw;
     min-height: 100vh;
 }
+
+.globalFooter {
+    height: 40px;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    p {
+        width: fit-content;
+
+        a {
+            color: blue;
+        }
+    }
+}
