@@ -1,14 +1,13 @@
-import Component1 from "./components/Component1.js";
+import ExamplePage from "./components/ExamplePage.js";
 import GlobalFooter from "./components/GlobalFooter.js";
-import reactLogo from "./images/react-logo.png";
+import React from "react";
+import "./styles/style.css";
 
 export default function App() {
     return (
-        <div>
-            <img src={reactLogo} alt="" />
-            <h1>Let's code! :)</h1>
-            <Component1 />
+        <React.Fragment>
+            <ExamplePage />
             <GlobalFooter />
-        </div>
+        </React.Fragment>
     );
 }
