@@ -7,9 +7,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    p {
+    & > p {
         width: fit-content;
-        a {
+        & > a {
             color: blue;
         }
     }

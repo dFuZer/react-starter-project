@@ -14,10 +14,10 @@
     align-items: center;
     font-family: sans-serif;
     padding: 20px;
-    h1 {
+    & > h1 {
         margin-bottom: 20px;
     }
-    img {
+    & > img {
         width: 200px;
         animation-name: reactIcon;
         animation-duration: 4s;
