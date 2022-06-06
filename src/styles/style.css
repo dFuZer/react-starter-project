@@ -32,13 +32,13 @@ body,
   width: 100%;
 }
 
-.globalFooter p {
+.globalFooter > p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.globalFooter p a {
+.globalFooter > p > a {
   color: blue;
 }
 
@@ -80,11 +80,11 @@ body,
   padding: 20px;
 }
 
-.examplePage h1 {
+.examplePage > h1 {
   margin-bottom: 20px;
 }
 
-.examplePage img {
+.examplePage > img {
   width: 200px;
   -webkit-animation-name: reactIcon;
           animation-name: reactIcon;
